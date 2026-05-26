@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="sidebar">
+            <h2> All Playlists</h2>
+            <button class="songs">Ranakumbha <span class="artist">Sai Abhynakkar , Bhumi , Deepthi Suresh,Sanapati Bharadwaj Patrudu</span></button>
+            <button class="songs">Sahana Sahana<span class="artist">Sai Abhynakkar , Bhumi , Deepthi Suresh,Sanapati Bharadwaj Patrudu</span></button>
+            <button class="songs">Boom Boom <span class="artist">Sai Abhynakkar , Bhumi , Deepthi Suresh,Sanapati Bharadwaj Patrudu</span> </button>
+            <button class="songs">Ranakumba <span class="artist">Sai Abhynakkar , Bhumi , Deepthi Suresh,Sanapati Bharadwaj Patrudu</span></button>
+            <button class="songs">Sahana Sahana <span class="artist">Sai Abhynakkar , Bhumi , Deepthi Suresh,Sanapati Bharadwaj Patrudu</span></button>
+            <button class="songs">Boom Boom <span class="artist">Sai Abhynakkar , Bhumi , Deepthi Suresh,Sanapati Bharadwaj Patrudu</span></button>
+            <button class="songs">Ranakumba <span class="artist">Sai Abhynakkar , Bhumi , Deepthi Suresh,Sanapati Bharadwaj Patrudu</span></button>
+            <button class="songs">Sahana Sahana <span class="artist">Sai Abhynakkar , Bhumi , Deepthi Suresh,Sanapati Bharadwaj Patrudu</span></button>
+        </section>
+        <section class="player">
+            <img src="./images/dude.jpg" id="image">
+            <div class="info">
+                <span id="title">Boom Boom [from 'Dude(Telugu)']</span>
+                <span id="artist">Sai Abhynakkar , Bhumi , Deepthi Suresh,Sanapati Bharadwaj Patrudu</span>
+            </div>
+            <section class="control">
+               <button id="previous" class="control-btn">⏮</button> 
+               <button id="toggle" class="control-btn"> ▶</button>
+               <button id="next" class="control-btn">⏭</button>   
+            </section>
+            <section class="progress">
+                <span class="time" id="currentTime">00:00</span>
+                <input type="range" id="progress">
+                <span class="time" id="totalTime">00:00</span>
+            </section>
+            </section>
+        </section>
+    </div>
+    <audio id="music"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
