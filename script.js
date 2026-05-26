@@ -2,20 +2,20 @@ let songs=[
     {
         title:"Ranakumbha",
         artist:"Sai Abhyankar",
-        image:"./images/ssmb29.jpg",
-        audio:"./songs/Rana_Kumbha.mp3"
+        image:"./ssmb29.jpg",
+        audio:"./Rana_Kumbha.mp3"
     },
     {
         title:"Sahana Sahana",
         artist:"Sai Abhyankar",
-        image:"./images/rajsab.jpg",
-        audio:"./songs/Sahana_Sahana.mp3"
+        image:"./rajsab.jpg",
+        audio:"./Sahana_Sahana.mp3"
     },
     {
         title:"boom Boom",
         artist:"Sai Abhyankar",
-        image:"./images/dude.jpg",
-        audio:"./songs/Boom_Boom_(Anthuleni_Premani).mp3"
+        image:"./dude.jpg",
+        audio:"./Boom_Boom_(Anthuleni_Premani).mp3"
     }
 ];
 let simage=document.getElementById("image");
